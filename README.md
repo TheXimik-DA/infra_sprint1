@@ -113,7 +113,7 @@ Kittygram - блог для размещение фотографий котов
 собрать и настроить статику для backend-приложения.
 в файле settings.py прописать настройки
 
-  STATIC_URL = '/static_backend/'
+  STATIC_URL = 'static_backend'
   STATIC_ROOT = BASE_DIR / 'static_backend'
 активировать виртуальное окружение проекта, перейти в директорию с файлом manage.py и выполнить команду python manage.py collectstatic
 
@@ -137,7 +137,7 @@ Kittygram - блог для размещение фотографий котов
   }
 Проверить конфигурацию sudo nginx -t и перезагрузить её командой sudo systemctl reload nginx, чтобы изменения вступили в силу.
 
-Cсылка на развёрнутое приложение:
+Cсылк на развёрнутое приложение:
 ximikittygramm.sytes.net
 Технологии и необходимые ниструменты:
 Python 3.x
