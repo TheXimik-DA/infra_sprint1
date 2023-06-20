@@ -1,5 +1,6 @@
 server {
     server_name 84.252.139.221 theximik.sytes.net;
+    server_tokens_off;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
@@ -38,6 +39,7 @@ server {
 
 server {
     server_name 84.252.139.221 ximikittygramm.sytes.net;
+    server_tokens_off;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8080;
