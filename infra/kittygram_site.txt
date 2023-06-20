@@ -1,0 +1,5 @@
+IP: 84.252.139.221;
+name_taski: https://theximik.sytes.net/;
+name_kittygram: https://ximikittygramm.sytes.net/;
+login: TheXimik;
+password: Microlab_05;
