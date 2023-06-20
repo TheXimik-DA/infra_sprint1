@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-DEBUG = True
+DEBUG = False
 
 ALOWED_HOSTS = ['84.252.139.221', '127.0.0.1', 'localhost', 'ximikittygramm.sytes.net']
 
